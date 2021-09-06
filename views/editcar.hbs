@@ -1,0 +1,9 @@
+<form action="/cars/save" method="POST">
+    <input type="text" class="form-control mb-3" name="model" placeholder="Modelini yozing" value="{{car.model}}">
+    <label class="form-lable"> Avtomobil rangi</label>
+    <input type="color" class="form-control mb-3" name="color" value="{{car.color}}">
+    <input type="numder" class="form-control mb-3" name="distance" placeholder="Bosib o`tilgan yo`li" value="{{car.distance}}">
+    <input type="numder" class="form-control mb-3" name="year" placeholder="Ishlab chiqarilgan yili" value="{{car.year}}">
+    <input type="hidden" name="_id" value="{{car._id}}">
+    <button type="submit" class="btn btn-primary">Jo'natish</button>
+</form>
